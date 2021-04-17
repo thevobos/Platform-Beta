@@ -94,7 +94,7 @@ You can see the working structure of the system by uploading the sample data.
 Login > Settings > System Management and click Import (Go)
 
 
-[![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)](https://www.buymeacoffee.com/thevobos "![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)")
+![](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9pbWcuYnV5bWVhY29mZmVlLmNvbS9hcGkvP3VybD1hSFIwY0hNNkx5OWpaRzR1WW5WNWJXVmhZMjltWm1WbExtTnZiUzkxY0d4dllXUnpMM0J5YjJacGJHVmZjR2xqZEhWeVpYTXZNakF5TVM4d05DOHdOVEZsWkRWaVkyTXdOVEJqTmpjNE5tVmxZbVpqT0RWaVlqUTNabVZrTWk1cWNHVm4mc2l6ZT0zMDAmbmFtZT1DZW5naXorQUtDQU4=&creator=Cengiz+AKCAN&is_creating=Distributed%20Systems%20and%20Software%20Architecture&design_code=1&design_color=%23FF813F&slug=thevobos)
 
 ![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)
 ![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/2.jpg)
