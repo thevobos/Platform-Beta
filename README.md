@@ -75,8 +75,9 @@ Api documentation is automatically prepared for the created components, it creat
 
 1. Copy files to server Upload the files required for installation to the server completely.
 If you using apache : use .htaccess
-```
 If you using nginx set index file fix.php:
+
+```
 if (!-e $request_filename){
 	rewrite ^/([^?]*)$ /fix.php?url=$1 last; break;
 }
@@ -84,13 +85,13 @@ if (!-e $request_filename){
 
 Go to your install domain. domain.com/install Enter your database information to be installed
 
-	Default Root Account : demo@demo.com | 123
+Default Root Account : demo@demo.com | 123
 
-	Import Sample Data
+Import Sample Data
 
-	You can see the working structure of the system by uploading the sample data.
+You can see the working structure of the system by uploading the sample data.
 
-	Login > Settings > System Management and click Import (Go)
+Login > Settings > System Management and click Import (Go)
 
 
 
