@@ -1,0 +1,348 @@
+[
+    {
+        "name": "iyzico/iyzipay-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/iyzico/iyzipay-php.git",
+            "reference": "13b5fcf52ca38304f3392c11e3cf0dbecbeda0fa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/iyzico/iyzipay-php/zipball/13b5fcf52ca38304f3392c11e3cf0dbecbeda0fa",
+            "reference": "13b5fcf52ca38304f3392c11e3cf0dbecbeda0fa",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "satooshi/php-coveralls": "~0.6.1"
+        },
+        "time": "2020-04-27T19:38:09+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "iyzico and contributors",
+                "homepage": "https://github.com/iyzico/iyzipay-php/contributors"
+            }
+        ],
+        "description": "iyzipay api php client",
+        "homepage": "https://www.iyzico.com",
+        "keywords": [
+            "iyzico",
+            "iyzico.com",
+            "iyzipay",
+            "iyzipay api",
+            "iyzipay api php",
+            "iyzipay api php client",
+            "iyzipay php",
+            "payment processing"
+        ]
+    },
+    {
+        "name": "josantonius/hook",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Josantonius/PHP-Hook.git",
+            "reference": "12552ef239ea73f3463f2e213f0bdee47568905e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Josantonius/PHP-Hook/zipball/12552ef239ea73f3463f2e213f0bdee47568905e",
+            "reference": "12552ef239ea73f3463f2e213f0bdee47568905e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.3 || ^2.8",
+            "phpmd/phpmd": "^2.6",
+            "phpunit/phpunit": "^5.7 || ^6.0",
+            "squizlabs/php_codesniffer": "^3.0"
+        },
+        "time": "2018-01-06T11:28:38+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Josantonius\\Hook\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josantonius",
+                "email": "hello@josantonius.com",
+                "homepage": "https://josantonius.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Library for handling hooks.",
+        "keywords": [
+            "Action Hooks",
+            "HOOK",
+            "actions",
+            "hhvm",
+            "php"
+        ]
+    },
+    {
+        "name": "php-curl-class/php-curl-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-curl-class/php-curl-class.git",
+            "reference": "a418962c4385aba6b97d2d57d65a0d405b514cf7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/a418962c4385aba6b97d2d57d65a0d405b514cf7",
+            "reference": "a418962c4385aba6b97d2d57d65a0d405b514cf7",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "ext-gd": "*",
+            "phpunit/phpunit": "*",
+            "squizlabs/php_codesniffer": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "*"
+        },
+        "time": "2019-08-05T04:18:26+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Curl\\": "src/Curl/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Zach Borboa"
+            }
+        ],
+        "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+        "homepage": "https://github.com/php-curl-class/php-curl-class",
+        "keywords": [
+            "API-Client",
+            "api",
+            "class",
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http-client",
+            "http-proxy",
+            "json",
+            "php",
+            "php-curl",
+            "php-curl-library",
+            "proxy",
+            "requests",
+            "restful",
+            "web-scraper",
+            "web-service",
+            "xml"
+        ]
+    },
+    {
+        "name": "stephweb/daw-php-pagination",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stephweb/daw-php-pagination.git",
+            "reference": "60108cd2f130db26f5bbb1b8cbc7e15fa3cc7f85"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stephweb/daw-php-pagination/zipball/60108cd2f130db26f5bbb1b8cbc7e15fa3cc7f85",
+            "reference": "60108cd2f130db26f5bbb1b8cbc7e15fa3cc7f85",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "7.5.*"
+        },
+        "time": "2018-12-30T13:46:38+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "DawPhpPagination\\": "src/DawPhpPagination/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stephen Damian",
+                "role": "Developer",
+                "email": "contact@devandweb.fr",
+                "homepage": "https://www.devandweb.fr"
+            }
+        ],
+        "description": "PHP library of simple Pagination",
+        "keywords": [
+            "pagination",
+            "paginator",
+            "php"
+        ]
+    },
+    {
+        "name": "sybio/image-workshop",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Sybio/ImageWorkshop.git",
+            "reference": "ea999eb9a4de1838da62cf6ae6dc432eeb7f4d0b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Sybio/ImageWorkshop/zipball/ea999eb9a4de1838da62cf6ae6dc432eeb7f4d0b",
+            "reference": "ea999eb9a4de1838da62cf6ae6dc432eeb7f4d0b",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.0",
+            "phpunit/phpunit": "~4.5"
+        },
+        "suggest": {
+            "ext-exif": "Allows to read and keep images EXIF data"
+        },
+        "time": "2018-08-06T11:54:14+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PHPImageWorkshop": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Clément Guillemain",
+                "homepage": "http://clementguillemain.fr",
+                "role": "Developer / Freelancer"
+            },
+            {
+                "name": "ImageWorkshop Community",
+                "homepage": "https://github.com/Sybio/ImageWorkshop/graphs/contributors"
+            }
+        ],
+        "description": "Powerful PHP class using GD library to work easily with images including layer notion (like Photoshop or GIMP)",
+        "homepage": "http://phpimageworkshop.com",
+        "keywords": [
+            "class",
+            "crop",
+            "gd",
+            "image",
+            "library",
+            "resize",
+            "rotate",
+            "thumbnail",
+            "watermark"
+        ]
+    },
+    {
+        "name": "voku/php-hooks",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voku/php-hooks.git",
+            "reference": "c904beda533163f13edca07e061c386ef2cc5ad9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voku/php-hooks/zipball/c904beda533163f13edca07e061c386ef2cc5ad9",
+            "reference": "c904beda533163f13edca07e061c386ef2cc5ad9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6.0"
+        },
+        "time": "2018-10-20T07:21:02+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "voku\\helper\\": "src/voku/helper/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Lars Moelleken",
+                "homepage": "http://www.moelleken.org/",
+                "role": "Developer"
+            },
+            {
+                "name": "Ohad Raz",
+                "homepage": "https://github.com/bainternet",
+                "role": "Developer"
+            }
+        ],
+        "description": "A fork of the WordPress filters hook system rolled in to a class to be ported into any PHP-based system",
+        "homepage": "http://github.com/voku/php-hooks/",
+        "keywords": [
+            "actions",
+            "filters",
+            "filters-system",
+            "hook-system",
+            "hooks"
+        ]
+    }
+]

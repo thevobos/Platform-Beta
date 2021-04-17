@@ -1,0 +1,44 @@
+{
+  "name": "vobo/monster",
+  "type": "project",
+  "description": "VOBO CLOUD FRAMEWORK",
+  "keywords": ["VOBO COMPANY"],
+  "homepage": "https://vobo.company/",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name":     "Cengiz AKCAN",
+      "email":    "cengiz@vobo.company",
+      "homepage": "https://vobo.company",
+      "role":     "Core Developer and Founder"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fix\\": "Fix/",
+      "App\\": "App/",
+      "fixframework\\": "Fix/Packages/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "vendor-dir": "Fix/External",
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "optimize-autoloader": true,
+  "require": {
+    "josantonius/hook": "^1.0@dev",
+    "php-curl-class/php-curl-class": "dev-master",
+    "stephweb/daw-php-pagination": "dev-master",
+    "sybio/image-workshop": "dev-master",
+    "voku/php-hooks": "dev-master"
+  }
+}
