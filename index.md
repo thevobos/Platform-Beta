@@ -1,37 +1,106 @@
-## Welcome to GitHub Pages
+# Platform Beta
 
-You can use the [editor on GitHub](https://github.com/Vobo-Cloud/Platform-Beta/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Now the era of writing code for classic **"Corporate Site**" and similar jobs is over
+"**Vobo Cloud**" is powered by the " **Fix Framework**" developed specifically for the sass backbone structure. It is used quickly and functionally thanks to its easy-to-access encoded infrastructure in plain language.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+With the sass feature, you can define individual plugins for each site that opens and manage components as you wish. For registered sites, the registration limit is set separately.
 
-### Markdown
+With the developed plug-in infrastructure, fully integrated plug-ins can be developed on the system. It has a positive effect on users with its easy-to-use interface and operations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Api documentation is automatically prepared for the created components, it creates a sample code fragment, data connection, and process links in the created document.
 
-```markdown
-Syntax highlighted code block
+## Road map
 
-# Header 1
-## Header 2
-### Header 3
+- [x] Setup support screen
+- [x] User management
+- [x] Api management
+- [x] Component management
+- [x] Creating modules
+     - [x] Multi module
+     - [x] Single module
+- [x] Edit module
+- [x] Plugin management
+- [ ] Interface language management (Default English)
+- [x] Interface customization
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Features
 
-[Link](url) and ![Image](src)
+- Setup assistant
+- Advanced user management
+- User authority management
+- Api key management
+- Automatic API document creation
+- Multiple site creation (SAAS)
+- Multiple attachment assignment
+- Advanced plugin development
+- Mysql database support
+- Robust and powerful coding infrastructure
+- Software reading standards
+- Data logging in different languages
+- Menu management
+- Import and Export data stream
+- Special Backup infrastructure
+- Automatic form processing
+------------
+
+## Form Elements
+
+1. Text input
+2. Tags input
+3. Select - Option
+4. Radio – Option
+5. Checkbox - Option
+6. Number input
+7. Photo manager
+8. Text editor
+9. Color select
+10. Multi Select – Option
+11. Textbox
+12. Input mask
+13. Random
+14. Date
+
+## Project Requirements
+1. Os:Centos7
+	 Ram : 2 Gb
+	Cpu : 4 Core
+	Disk : 20 Gb
+	Network : 100Mbit
+2. Engine:Nginx&Mysql&Php
+3. Technical information little. for install
+
+## Setup steps
+
+1. Copy files to server Upload the files required for installation to the server completely.
+If you using apache : use .htaccess
+If you using nginx set index file fix.php:
+
+```
+if (!-e $request_filename){
+	rewrite ^/([^?]*)$ /fix.php?url=$1 last; break;
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Go to your install domain. domain.com/install Enter your database information to be installed
 
-### Jekyll Themes
+Default Root Account : demo@demo.com | 123
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vobo-Cloud/Platform-Beta/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Import Sample Data
 
-### Support or Contact
+You can see the working structure of the system by uploading the sample data.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Login > Settings > System Management and click Import (Go)
+
+
+
+
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/2.jpg)
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/3.jpg)
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/4.jpg)
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/5.jpg)
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/6.jpg)
+![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/7.jpg)
+
