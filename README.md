@@ -74,8 +74,8 @@ Api documentation is automatically prepared for the created components, it creat
 ## Setup steps
 
 1. Copy files to server Upload the files required for installation to the server completely.
-If you using apache : use .htaccess
-If you using nginx set index file fix.php:
+- If you using apache : use .htaccess
+- If you using nginx set index file fix.php:
 
 ```
 if (!-e $request_filename){
