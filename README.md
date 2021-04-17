@@ -9,7 +9,7 @@ With the developed plug-in infrastructure, fully integrated plug-ins can be deve
 
 Api documentation is automatically prepared for the created components, it creates a sample code fragment, data connection, and process links in the created document.
 
-### Road map
+## Road map
 
 - [x] Setup support screen
 - [x] User management
@@ -25,7 +25,7 @@ Api documentation is automatically prepared for the created components, it creat
 
 
 
-### Features
+## Features
 
 - Setup assistant
 - Advanced user management
@@ -45,7 +45,7 @@ Api documentation is automatically prepared for the created components, it creat
 - Automatic form processing
 ------------
 
-### Form Elements
+## Form Elements
 
 1. Text input
 2. Tags input
@@ -62,7 +62,7 @@ Api documentation is automatically prepared for the created components, it creat
 13. Random
 14. Date
 
-### Project Requirements
+## Project Requirements
 1. Os:Centos7
 	 Ram : 2 Gb
 	Cpu : 4 Core
@@ -71,7 +71,7 @@ Api documentation is automatically prepared for the created components, it creat
 2. Engine:Nginx&Mysql&Php
 3. Technical information little. for install
 
-## INSTALLATIONS STEPS
+## Setup steps
 
 1. Copy files to server Upload the files required for installation to the server completely.
 If you using apache : use .htaccess
