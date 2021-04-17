@@ -94,7 +94,7 @@ You can see the working structure of the system by uploading the sample data.
 Login > Settings > System Management and click Import (Go)
 
 
-
+[![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)](https://www.buymeacoffee.com/thevobos "![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)")
 
 ![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/1.jpg)
 ![](https://raw.githubusercontent.com/Vobo-Cloud/Platform-Beta/main/Screens/2.jpg)
